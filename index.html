@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey project</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<h1 id="title">Girls-Can-Code Survey Form</h1>
+<p id="description"> If you want to join our club fill in the details below</p>
+<form id="survey-form">
+	<fieldset id="fieldset">
+		<legend class="legend">fill this form</legend>
+		<div>
+		<label id="name-label" for="name">Name</label>
+		<input required="" placeholder="Enter Your full Name" type="name" name="name" tabindex="1" id="name" class="form-control">
+		<br>
+</div>
+<div>
+	<br>
+		<label id="email-label" for="email">Email</label>
+		<input required="" placeholder="Enter Your Email" type="email" name="email" tabindex="2" id="email" class="form-control">
+</div>
+<div>
+	<br>
+		<label id="age-label" for="age">Age</label>
+		<input required="" placeholder="Enter your age" type="number" name="age" tabindex="3" id="number" class="form-control" min="16" max="100">
+</div>
+<div>
+	<br>
+		<label id="gender-label" for="name">Gender</label>
+		<input required="" placeholder="Enter Your Gender" type="gender" name="gender" tabindex="4" id="gender" class="form-control">
+</div>
+<div class="dropdown">
+	<label id="dropdown-label" for="dropdown">What do you major in:</label>
+	<select id="dropdown" name="role" class="for-control" required placeholder="Select your Major" type="select" tabindex="5">
+		<br>
+	 <option disabled selected value>select current role</option>
+	 <option value="Front-end">Front-end</option>
+	 <option value="Back-end">Back-end</option>
+	 <option value="Cyber-security">Cyber-security</option>
+	 <option value="Web-design">Web-design</option>
+	 <option value="Networking">Networking</option>
+
+	</select>
+</div>
+<div class="form-radio">
+	<p>Would you Recommend this club to other women in tech</p>
+	<label><input type="radio" name="recommendation" value="definitely"class="input-radio" checked="">Definitely</label>
+
+	<label><input type="radio" name="recommendation" value="maybe"class="input-radio">Maybe</label>
+
+	<label><input type="radio" name="recommendation" value="no"class="input-radio">No</label>
+</div>
+<div>
+	<label id="check">What else do you do besides being a woman in techology</label>
+	<label><input type="checkbox" value="wife" name="role" class="check">Wife</label>
+
+	<label><input type="checkbox" value="partner" name="role" class="check">Partner</label>
+
+	<label><input type="checkbox" value="organizer" name="role" class="check">Organizer</label>
+
+	<label><input type="checkbox" value="administrator" name="role" class="check">Administrator</label>
+
+	<label><input type="checkbox" value="director" name="role" class="check">Director</label>
+
+	<label><input type="checkbox" value="mother" name="role" class="check">Mother</label>
+
+	<label><input type="checkbox" value="teacher" name="role" class="check">Teacher</label>
+
+	<label><input type="checkbox" value="artist" name="role" class="check">Artist</label>
+
+	<label><input type="checkbox" value="health-officer" name="role" class="check">Health officer</label>
+
+	<label><input type="checkbox" value="economist" name="role" class="check">Economist</label>
+
+	<label><input type="checkbox" value="student" name="role" class="check">Student</label>
+
+	<label><input type="checkbox" value="others" name="role" class="check">Others</label>
+</div>
+<div class="form-area">
+	<label>Please Leave as a comment here:</label>
+	<textarea id="comments" class="textarea" name="comment" placeholder="Enter your comment here"></textarea>
+</div>
+<div>
+	<button type="Submit" id="Submit" class="btn">Submit</button>
+</div>
+	</fieldset>
+</form>
+<body>
+
+</body>
+</html>
